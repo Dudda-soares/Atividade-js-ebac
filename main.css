@@ -1,0 +1,60 @@
+html {
+    background-color:wheat;
+    color: white;
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body{
+    border: 3px solid black;
+    padding: 30px;
+}
+
+body h1{
+    color: black;
+    text-align: center;
+
+}
+form label{
+    color: black;
+    width: 30px;
+    height: 30px;
+    font-size: 16px;
+      
+}
+form input{
+    padding: 8px;
+    margin: 6px;
+
+}
+.botaoenvio {
+    background-color: rgba(0, 128, 0, 0.548);
+    border-radius: 8px;
+    font-size: 18px;
+    margin: 6px;
+    
+
+}
+#clearButton{
+    background-color: rgba(255, 4, 4, 0.473);
+    border-radius: 8px;
+    font-size: 17px;
+    
+}
+.erro-mensagem{
+    padding: 16px;
+    background-color: red;
+    color:white;
+    display: none;
+    margin-bottom: 8px;
+    
+}
+.success-message {
+    background-color: #27ae60;
+    padding: 16px;
+    color:#fff;
+    display: none;
+}
