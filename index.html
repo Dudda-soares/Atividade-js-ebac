@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="stylesheet" type="text/css" href="./main.css">
+</head>
+<body> 
+    <div>   
+    <h1>Formulário</h1>
+    <form id="form">
+        <label for="text"><strong>Campo A:</strong></label>
+        <input id="numeroA" type="number" required placeholder="Digite numero A"/>
+        <br />
+        <label for="campoB"><strong>Campo B:</strong></label>
+        <input id="numeroB" type="number" required placeholder="Digite numero B"/>
+        <br />
+        <p class="erro-mensagem">
+            Invalido! O valor do campo A nao pode ser maior que o campo B, tente novamente.
+        </p>
+        
+        <button class="botaoenvio" type="submit"> 
+            Enviar
+        </button>
+        <button type="button" id="clearButton">Limpar Dados</button>
+        <p class="success-message">
+            Valido! O valor digitado no campo B : <b>1000</b> é maior que o valor do campo A : <b>Nome do cliente</b> ! 
+        </p>
+    </form>
+    </div>
+    <script src="./style.js"></script>
+    
+</body>
+</html>
+    
+</body>
+</html>
